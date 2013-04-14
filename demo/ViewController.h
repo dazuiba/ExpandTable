@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExpandTableModel.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController
 
 @end

@@ -10,15 +10,15 @@
 		2268ABE417157583004E54C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268ABE317157583004E54C3 /* UIKit.framework */; };
 		2268ABE617157583004E54C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268ABE517157583004E54C3 /* Foundation.framework */; };
 		2268ABE817157583004E54C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268ABE717157583004E54C3 /* CoreGraphics.framework */; };
-		2268ABEE17157583004E54C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2268ABEC17157583004E54C3 /* InfoPlist.strings */; };
-		2268ABF017157583004E54C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268ABEF17157583004E54C3 /* main.m */; };
-		2268ABF417157583004E54C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268ABF317157583004E54C3 /* AppDelegate.m */; };
-		2268ABF617157583004E54C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2268ABF517157583004E54C3 /* Default.png */; };
-		2268ABF817157583004E54C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2268ABF717157583004E54C3 /* Default@2x.png */; };
-		2268ABFA17157583004E54C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2268ABF917157583004E54C3 /* Default-568h@2x.png */; };
-		2268ABFD17157583004E54C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268ABFC17157583004E54C3 /* ViewController.m */; };
-		2268AC0017157583004E54C3 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2268ABFE17157583004E54C3 /* ViewController_iPhone.xib */; };
-		2268AC0317157583004E54C3 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2268AC0117157583004E54C3 /* ViewController_iPad.xib */; };
+		2268AC1A171575BA004E54C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268AC0B171575BA004E54C3 /* AppDelegate.m */; };
+		2268AC1B171575BA004E54C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2268AC0C171575BA004E54C3 /* Default-568h@2x.png */; };
+		2268AC1C171575BA004E54C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2268AC0D171575BA004E54C3 /* Default.png */; };
+		2268AC1D171575BA004E54C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2268AC0E171575BA004E54C3 /* Default@2x.png */; };
+		2268AC1E171575BA004E54C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2268AC0F171575BA004E54C3 /* InfoPlist.strings */; };
+		2268AC21171575BA004E54C3 /* ExpandTable-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2268AC15171575BA004E54C3 /* ExpandTable-Info.plist */; };
+		2268AC22171575BA004E54C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268AC17171575BA004E54C3 /* main.m */; };
+		2268AC23171575BA004E54C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268AC19171575BA004E54C3 /* ViewController.m */; };
+		2268AC27171575DE004E54C3 /* ExpandTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268AC26171575DE004E54C3 /* ExpandTableModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,19 +26,19 @@
 		2268ABE317157583004E54C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2268ABE517157583004E54C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2268ABE717157583004E54C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2268ABEB17157583004E54C3 /* ExpandTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpandTable-Info.plist"; sourceTree = "<group>"; };
-		2268ABED17157583004E54C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2268ABEF17157583004E54C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2268ABF117157583004E54C3 /* ExpandTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpandTable-Prefix.pch"; sourceTree = "<group>"; };
-		2268ABF217157583004E54C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2268ABF317157583004E54C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2268ABF517157583004E54C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2268ABF717157583004E54C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2268ABF917157583004E54C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2268ABFB17157583004E54C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2268ABFC17157583004E54C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2268ABFF17157583004E54C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		2268AC0217157583004E54C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		2268AC0A171575BA004E54C3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2268AC0B171575BA004E54C3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2268AC0C171575BA004E54C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2268AC0D171575BA004E54C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2268AC0E171575BA004E54C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2268AC10171575BA004E54C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2268AC15171575BA004E54C3 /* ExpandTable-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExpandTable-Info.plist"; sourceTree = "<group>"; };
+		2268AC16171575BA004E54C3 /* ExpandTable-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExpandTable-Prefix.pch"; sourceTree = "<group>"; };
+		2268AC17171575BA004E54C3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2268AC18171575BA004E54C3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2268AC19171575BA004E54C3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2268AC25171575DE004E54C3 /* ExpandTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ExpandTableModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2268AC26171575DE004E54C3 /* ExpandTableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ExpandTableModel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,8 @@
 		2268ABD717157583004E54C3 = {
 			isa = PBXGroup;
 			children = (
-				2268ABE917157583004E54C3 /* ExpandTable */,
+				2268AC24171575C6004E54C3 /* ExpandTable */,
+				2268AC09171575BA004E54C3 /* demo */,
 				2268ABE217157583004E54C3 /* Frameworks */,
 				2268ABE117157583004E54C3 /* Products */,
 			);
@@ -82,32 +83,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2268ABE917157583004E54C3 /* ExpandTable */ = {
+		2268AC09171575BA004E54C3 /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				2268ABF217157583004E54C3 /* AppDelegate.h */,
-				2268ABF317157583004E54C3 /* AppDelegate.m */,
-				2268ABFB17157583004E54C3 /* ViewController.h */,
-				2268ABFC17157583004E54C3 /* ViewController.m */,
-				2268ABFE17157583004E54C3 /* ViewController_iPhone.xib */,
-				2268AC0117157583004E54C3 /* ViewController_iPad.xib */,
-				2268ABEA17157583004E54C3 /* Supporting Files */,
+				2268AC0A171575BA004E54C3 /* AppDelegate.h */,
+				2268AC0B171575BA004E54C3 /* AppDelegate.m */,
+				2268AC0C171575BA004E54C3 /* Default-568h@2x.png */,
+				2268AC0D171575BA004E54C3 /* Default.png */,
+				2268AC0E171575BA004E54C3 /* Default@2x.png */,
+				2268AC0F171575BA004E54C3 /* InfoPlist.strings */,
+				2268AC15171575BA004E54C3 /* ExpandTable-Info.plist */,
+				2268AC16171575BA004E54C3 /* ExpandTable-Prefix.pch */,
+				2268AC17171575BA004E54C3 /* main.m */,
+				2268AC18171575BA004E54C3 /* ViewController.h */,
+				2268AC19171575BA004E54C3 /* ViewController.m */,
 			);
-			path = ExpandTable;
+			path = demo;
 			sourceTree = "<group>";
 		};
-		2268ABEA17157583004E54C3 /* Supporting Files */ = {
+		2268AC24171575C6004E54C3 /* ExpandTable */ = {
 			isa = PBXGroup;
 			children = (
-				2268ABEB17157583004E54C3 /* ExpandTable-Info.plist */,
-				2268ABEC17157583004E54C3 /* InfoPlist.strings */,
-				2268ABEF17157583004E54C3 /* main.m */,
-				2268ABF117157583004E54C3 /* ExpandTable-Prefix.pch */,
-				2268ABF517157583004E54C3 /* Default.png */,
-				2268ABF717157583004E54C3 /* Default@2x.png */,
-				2268ABF917157583004E54C3 /* Default-568h@2x.png */,
+				2268AC25171575DE004E54C3 /* ExpandTableModel.h */,
+				2268AC26171575DE004E54C3 /* ExpandTableModel.m */,
 			);
-			name = "Supporting Files";
+			path = ExpandTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,12 +161,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2268ABEE17157583004E54C3 /* InfoPlist.strings in Resources */,
-				2268ABF617157583004E54C3 /* Default.png in Resources */,
-				2268ABF817157583004E54C3 /* Default@2x.png in Resources */,
-				2268ABFA17157583004E54C3 /* Default-568h@2x.png in Resources */,
-				2268AC0017157583004E54C3 /* ViewController_iPhone.xib in Resources */,
-				2268AC0317157583004E54C3 /* ViewController_iPad.xib in Resources */,
+				2268AC1B171575BA004E54C3 /* Default-568h@2x.png in Resources */,
+				2268AC1C171575BA004E54C3 /* Default.png in Resources */,
+				2268AC1D171575BA004E54C3 /* Default@2x.png in Resources */,
+				2268AC1E171575BA004E54C3 /* InfoPlist.strings in Resources */,
+				2268AC21171575BA004E54C3 /* ExpandTable-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,37 +176,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2268ABF017157583004E54C3 /* main.m in Sources */,
-				2268ABF417157583004E54C3 /* AppDelegate.m in Sources */,
-				2268ABFD17157583004E54C3 /* ViewController.m in Sources */,
+				2268AC1A171575BA004E54C3 /* AppDelegate.m in Sources */,
+				2268AC22171575BA004E54C3 /* main.m in Sources */,
+				2268AC23171575BA004E54C3 /* ViewController.m in Sources */,
+				2268AC27171575DE004E54C3 /* ExpandTableModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2268ABEC17157583004E54C3 /* InfoPlist.strings */ = {
+		2268AC0F171575BA004E54C3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2268ABED17157583004E54C3 /* en */,
+				2268AC10171575BA004E54C3 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2268ABFE17157583004E54C3 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2268ABFF17157583004E54C3 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		2268AC0117157583004E54C3 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2268AC0217157583004E54C3 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -273,8 +257,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ExpandTable/ExpandTable-Prefix.pch";
-				INFOPLIST_FILE = "ExpandTable/ExpandTable-Info.plist";
+				GCC_PREFIX_HEADER = "demo/ExpandTable-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/demo/ExpandTable-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -284,8 +268,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ExpandTable/ExpandTable-Prefix.pch";
-				INFOPLIST_FILE = "ExpandTable/ExpandTable-Info.plist";
+				GCC_PREFIX_HEADER = "demo/ExpandTable-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/demo/ExpandTable-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
